@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1217</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1217</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>30</y>
+      <width>931</width>
+      <height>491</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QStackedWidget" name="stackedWidget">
+     <property name="geometry">
+      <rect>
+       <x>3</x>
+       <y>1</y>
+       <width>931</width>
+       <height>481</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="page">
+      <widget class="QFrame" name="frame_2">
+       <property name="geometry">
+        <rect>
+         <x>5</x>
+         <y>146</y>
+         <width>922</width>
+         <height>191</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>922</width>
+         <height>191</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>922</width>
+         <height>191</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#frame_2 {
+
+
+background:rgb(234, 234, 234);
+border-radius:15px;
+border:none
+}</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QStackedWidget" name="stackedWidget_2">
+        <property name="geometry">
+         <rect>
+          <x>690</x>
+          <y>110</y>
+          <width>111</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:rgba(0,0,0,0);</string>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <widget class="QWidget" name="page_3">
+         <widget class="QPushButton" name="pushButton">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>30</y>
+            <width>91</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Raleway Thin</family>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">#pushButton{
+
+background:rgb(172, 32, 32);
+border:1px solid rgb(234, 234, 234);
+color:rgb(244, 244, 244);
+}
+
+#pushButton:hover {
+background:rgb(255, 255, 255);
+}</string>
+          </property>
+          <property name="text">
+           <string>Cancle</string>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>31</width>
+            <height>31</height>
+           </size>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="page_4">
+         <widget class="QPushButton" name="pushButton_3">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>30</y>
+            <width>91</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Raleway Thin</family>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">#pushButton_3{
+
+background:rgb(21, 29, 75);
+border:1px solid rgb(234, 234, 234);
+color:rgb(244, 244, 244);
+}
+
+#pushButton_3:hover {
+background:rgb(255, 255, 255);
+}</string>
+          </property>
+          <property name="text">
+           <string>done</string>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>31</width>
+            <height>31</height>
+           </size>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="page_12">
+         <widget class="QPushButton" name="pushButton_6">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>30</y>
+            <width>91</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Raleway Thin</family>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">#pushButton_6{
+
+background:rgb(57, 60, 255);
+border:1px solid rgb(234, 234, 234);
+color:rgb(244, 244, 244);
+}
+
+#pushButton_6:hover {
+background:rgb(255, 255, 255);
+}</string>
+          </property>
+          <property name="text">
+           <string>close</string>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>31</width>
+            <height>31</height>
+           </size>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QStackedWidget" name="stackedWidget_3">
+        <property name="geometry">
+         <rect>
+          <x>790</x>
+          <y>110</y>
+          <width>101</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:rgba(0,0,0,0);</string>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <widget class="QWidget" name="page_5">
+         <widget class="QPushButton" name="pushButton_2">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>30</y>
+            <width>91</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Raleway Thin</family>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">#pushButton_2{
+
+background:rgb(42, 79, 163);
+border:1px solid rgb(234, 234, 234);
+color:rgb(244, 244, 244);
+}
+
+#pushButton_2:hover {
+background:rgb(255, 255, 255);
+}</string>
+          </property>
+          <property name="text">
+           <string>Pause</string>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>24</width>
+            <height>26</height>
+           </size>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="page_11">
+         <widget class="QPushButton" name="pushButton_5">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>30</y>
+            <width>91</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Raleway Thin</family>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">#pushButton_5{
+
+background:rgb(57, 60, 255);
+border:1px solid rgb(234, 234, 234);
+color:rgb(244, 244, 244);
+}
+
+#pushButton_5:hover {
+background:rgb(255, 255, 255);
+}</string>
+          </property>
+          <property name="text">
+           <string>Retry</string>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>24</width>
+            <height>26</height>
+           </size>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="page_6">
+         <widget class="QPushButton" name="pushButton_4">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>30</y>
+            <width>91</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Raleway Thin</family>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">#pushButton_4{
+
+background:rgb(57, 60, 255);
+border:1px solid rgb(234, 234, 234);
+color:rgb(244, 244, 244);
+}
+
+#pushButton_4:hover {
+background:rgb(255, 255, 255);
+}</string>
+          </property>
+          <property name="text">
+           <string>Open</string>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>24</width>
+            <height>26</height>
+           </size>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QStackedWidget" name="stackedWidget_4">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>10</y>
+          <width>671</width>
+          <height>80</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:rgba(0,0,0,0);</string>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <widget class="QWidget" name="page_7">
+         <widget class="QLabel" name="label_5">
+          <property name="geometry">
+           <rect>
+            <x>380</x>
+            <y>47</y>
+            <width>151</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Raleway Thin</family>
+            <pointsize>-1</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font-size:13px;
+color:rgb(120, 120, 120);
+border:none;</string>
+          </property>
+          <property name="text">
+           <string>Query</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_11">
+          <property name="geometry">
+           <rect>
+            <x>70</x>
+            <y>47</y>
+            <width>191</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Raleway Thin</family>
+            <pointsize>-1</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font-size:13px;
+color:rgb(120, 120, 120);
+border:none;</string>
+          </property>
+          <property name="text">
+           <string>www.sarzamindownload.com</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_10">
+          <property name="geometry">
+           <rect>
+            <x>12</x>
+            <y>45</y>
+            <width>91</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Raleway Thin</family>
+            <pointsize>-1</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font-size:15px;
+color:rgb(120, 120, 120);
+border:none;
+font-weight:bold</string>
+          </property>
+          <property name="text">
+           <string>Host</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_3">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>9</y>
+            <width>321</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Raleway Thin</family>
+            <pointsize>-1</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font-size:25px;
+color:rgb(107, 107, 107);
+border:none;</string>
+          </property>
+          <property name="text">
+           <string>Operation started </string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_9">
+          <property name="geometry">
+           <rect>
+            <x>310</x>
+            <y>46</y>
+            <width>51</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Raleway Thin</family>
+            <pointsize>-1</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font-size:15px;
+color:rgb(120, 120, 120);
+border:none;
+font-weight:bold</string>
+          </property>
+          <property name="text">
+           <string>Query</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="page_8">
+         <widget class="QLabel" name="label_7">
+          <property name="geometry">
+           <rect>
+            <x>220</x>
+            <y>20</y>
+            <width>221</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Raleway Thin</family>
+            <pointsize>-1</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font-size:25px;
+color:rgb(107, 107, 107);
+border:none;</string>
+          </property>
+          <property name="text">
+           <string>Just a moment . . .</string>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QStackedWidget" name="stackedWidget_5">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>95</y>
+          <width>551</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#stackedWidget_5 {
+background:rgb(240, 240, 240);
+border-radius:15px;
+
+}</string>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <widget class="QWidget" name="page_9">
+         <widget class="QLabel" name="label_6">
+          <property name="geometry">
+           <rect>
+            <x>89</x>
+            <y>21</y>
+            <width>231</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Raleway Thin</family>
+            <pointsize>-1</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font-size:13px;
+color:rgb(107, 107, 107);
+border:none;</string>
+          </property>
+          <property name="text">
+           <string>Taking care of security measures . . .</string>
+          </property>
+         </widget>
+         <widget class="QProgressBar" name="progressBar">
+          <property name="geometry">
+           <rect>
+            <x>19</x>
+            <y>48</y>
+            <width>499</width>
+            <height>4</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Raleway Thin</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border:1px solid black</string>
+          </property>
+          <property name="value">
+           <number>24</number>
+          </property>
+          <property name="format">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_4">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>19</y>
+            <width>71</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Raleway Thin</family>
+            <pointsize>-1</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font-size:15px;
+color:rgb(107, 107, 107);
+border:none;
+font-weight:bold</string>
+          </property>
+          <property name="text">
+           <string>Status</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="page_10">
+         <widget class="QLabel" name="label_8">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>10</y>
+            <width>511</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Raleway Thin</family>
+            <pointsize>-1</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font-size:25px;
+color:rgb(107, 107, 107);
+border:none;</string>
+          </property>
+          <property name="text">
+           <string>Extracting . . .</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="frame_10">
+       <property name="geometry">
+        <rect>
+         <x>105</x>
+         <y>2</y>
+         <width>481</width>
+         <height>141</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#frame_10 {
+
+
+
+border:none;
+font-size:20px;
+border-top-right-radius:15px;
+border-top-left-radius:15px;
+background:rgb(232, 232, 232);
+color:rgb(197, 197, 197);
+}
+#frame_8:hover{
+background:qlineargradient(spread:reflect, x1:0.972, y1:0.188, x2:0.255545, y2:0.665, stop:0 rgba(0, 0, 0, 206), stop:1 rgba(156, 156, 156, 168));
+}</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QFrame" name="frame_15">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>30</y>
+          <width>441</width>
+          <height>80</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:rgb(242, 242, 242);
+border-radius:15px;</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <widget class="QLabel" name="label_18">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>24</y>
+           <width>441</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Raleway Thin</family>
+           <pointsize>17</pointsize>
+           <strikeout>false</strikeout>
+           <stylestrategy>PreferAntialias</stylestrategy>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">
+color:rgb(104, 104, 104);
+background:rgba(0,0,0,0);
+padding-left:5px;
+padding-bottom:3px</string>
+         </property>
+         <property name="text">
+          <string>The process has been started</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="frame_11">
+       <property name="geometry">
+        <rect>
+         <x>345</x>
+         <y>340</y>
+         <width>531</width>
+         <height>141</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#frame_11 {
+
+
+
+border:none;
+font-size:20px;
+
+border-bottom-right-radius:15px;
+border-bottom-left-radius:15px;
+background:rgb(232, 232, 232);
+color:rgb(197, 197, 197);
+}
+</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QFrame" name="frame_16">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>30</y>
+          <width>441</width>
+          <height>80</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:rgb(242, 242, 242);
+border-radius:15px;</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <widget class="QLabel" name="label_19">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>27</y>
+           <width>441</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Raleway Thin</family>
+           <pointsize>17</pointsize>
+           <strikeout>false</strikeout>
+           <stylestrategy>PreferAntialias</stylestrategy>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">
+color:rgb(104, 104, 104);
+background:rgba(0,0,0,0);
+padding-left:5px;
+padding-bottom:3px</string>
+         </property>
+         <property name="text">
+          <string>We will handle everything</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_2"/>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1217</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

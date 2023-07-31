@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>2024</width>
+    <height>605</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">/* HORIZONTAL SCROLLBAR */
+QScrollBar:horizontal {
+    border: none;
+    background: rgb(240, 240, 240);
+    height: 15px;
+    margin: 0 15px 0 15px;
+	width:15px;
+    border-radius: 15px;
+}
+
+/* HANDLE BAR HORIZONTAL */
+QScrollBar::handle:horizontal {  
+	background: rgba(240, 240, 240,.2);
+    min-width: 10px;
+	max_width:15px;
+	width:15px;
+    border-radius: 7px;
+	height:1px;
+}
+QScrollBar::handle:horizontal:hover{  
+    background-color: rgba(240, 240, 240,.3);
+	height:1px
+}
+QScrollBar::handle:horizontal:pressed {  
+    background-color: rgba(240, 240, 240,.4);
+}
+
+/* BTN LEFT - SCROLLBAR */
+QScrollBar::sub-line:horizontal {
+    border: nonergb(11, 11, 11);
+    background-color: rgba(0,0,0,0);
+    width: 15px;
+	height:10px !important;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    subcontrol-position: left;
+    subcontrol-origin: margin;
+}
+QScrollBar::sub-line:horizontal:hover {  
+    background-color: rgb(255, 0, 127);
+}
+QScrollBar::sub-line:horizontal:pressed {  
+    background-color: rgb(185, 0, 92);
+}
+
+/* BTN RIGHT - SCROLLBAR */
+QScrollBar::add-line:horizontal {
+    border: none;
+    background-color: rgba(59, 59, 90,0);
+    width: 15px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    subcontrol-position: right;
+    subcontrol-origin: margin;
+}
+QScrollBar::add-line:horizontal:hover {  
+    background-color: rgb(255, 0, 127);
+}
+QScrollBar::add-line:horizontal:pressed {  
+    background-color: rgb(185, 0, 92);
+}
+
+/* RESET ARROW */
+QScrollBar::left-arrow:horizontal, QScrollBar::right-arrow:horizontal {
+    background: none;
+}
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
+    background: none;
+}
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>40</y>
+      <width>1951</width>
+      <height>461</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>1951</width>
+      <height>461</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>1951</width>
+      <height>461</height>
+     </size>
+    </property>
+    <property name="baseSize">
+     <size>
+      <width>1920</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/* HORIZONTAL SCROLLBAR */
+QScrollBar:horizontal {
+    border: none;
+    background: rgb(145, 145, 145);
+    height: 15px;
+    margin: 0 15px 0 15px;
+	width:15px;
+    border-radius: 15px;
+}
+
+/* HANDLE BAR HORIZONTAL */
+QScrollBar::handle:horizontal {  
+	background:  rgb(68, 68, 68);
+    min-width: 10px;
+	max_width:15px;
+	width:15px;
+    border-radius: 7px;
+	height:1px;
+}
+QScrollBar::handle:horizontal:hover{  
+    background-color:  rgb(145, 145, 145);
+	height:1px
+}
+QScrollBar::handle:horizontal:pressed {  
+    background-color: rgba(240, 240, 240,.4);
+}
+
+/* BTN LEFT - SCROLLBAR */
+QScrollBar::sub-line:horizontal {
+    border: nonergb(11, 11, 11);
+    background-color: rgba(0,0,0,0);
+    width: 15px;
+	height:10px !important;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    subcontrol-position: left;
+    subcontrol-origin: margin;
+}
+QScrollBar::sub-line:horizontal:hover {  
+    background-color: rgb(255, 0, 127);
+}
+QScrollBar::sub-line:horizontal:pressed {  
+    background-color: rgb(185, 0, 92);
+}
+
+/* BTN RIGHT - SCROLLBAR */
+QScrollBar::add-line:horizontal {
+    border: none;
+    background-color: rgba(59, 59, 90,0);
+    width: 15px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    subcontrol-position: right;
+    subcontrol-origin: margin;
+}
+QScrollBar::add-line:horizontal:hover {  
+    background-color: rgb(255, 0, 127);
+}
+QScrollBar::add-line:horizontal:pressed {  
+    background-color: rgb(185, 0, 92);
+}
+
+/* RESET ARROW */
+QScrollBar::left-arrow:horizontal, QScrollBar::right-arrow:horizontal {
+    background: none;
+}
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
+    background: none;
+}
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QFrame" name="frame_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>11</y>
+       <width>1951</width>
+       <height>431</height>
+      </rect>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#frame_2 {
+
+
+background:rgb(225, 225, 225);
+color: rgb(130, 15, 55);
+
+border:none
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>79</y>
+        <width>21</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-left:1px solid white</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>30</y>
+        <width>51</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Raleway Thin</family>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#pushButton_2{
+
+background:rgb(244, 244, 244);
+border:2px solid rgb(244, 244, 244);
+color:rgb(118, 118, 118);
+border-radius:25px;
+}
+
+#pushButton_2:hover {
+background:rgb(255, 255, 255);
+}</string>
+      </property>
+      <property name="text">
+       <string>ESC</string>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>21</width>
+        <height>21</height>
+       </size>
+      </property>
+      <property name="shortcut">
+       <string>Esc</string>
+      </property>
+     </widget>
+     <widget class="QScrollArea" name="scrollArea">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>40</y>
+        <width>1321</width>
+        <height>351</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+
+background:rgb(245, 245, 245);
+border:none;
+border-radius:15px
+
+</string>
+      </property>
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1321</width>
+         <height>351</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout"/>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>2024</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

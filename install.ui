@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>2145</width>
+    <height>699</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>18</x>
+      <y>70</y>
+      <width>1971</width>
+      <height>531</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:1px solid grey;
+border:none;
+background:rgba(0,0,0,0);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QStackedWidget" name="stackedWidget">
+       <property name="minimumSize">
+        <size>
+         <width>1953</width>
+         <height>513</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>1953</width>
+         <height>513</height>
+        </size>
+       </property>
+       <property name="currentIndex">
+        <number>0</number>
+       </property>
+       <widget class="QWidget" name="page">
+        <widget class="QFrame" name="frame_2">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>50</y>
+           <width>1951</width>
+           <height>261</height>
+          </rect>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">#frame_2 {
+
+
+background:rgb(235, 235, 235);
+color: rgb(130, 15, 55);
+
+border:none
+}</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <widget class="QLabel" name="label">
+          <property name="geometry">
+           <rect>
+            <x>600</x>
+            <y>79</y>
+            <width>21</width>
+            <height>91</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-left:1px solid white</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_2">
+          <property name="geometry">
+           <rect>
+            <x>1440</x>
+            <y>200</y>
+            <width>111</width>
+            <height>37</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Raleway Thin</family>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">#pushButton_2{
+
+background:qlineargradient(spread:pad, x1:0, y1:0, x2:0.648, y2:0.642455, stop:0 rgba(152, 0, 0, 241), stop:1 rgba(152, 60, 24, 245));
+border:1px solid rgb(234, 234, 234);
+color:rgb(244, 244, 244);
+}
+
+#pushButton_2:hover {
+background:rgb(255, 255, 255);
+}</string>
+          </property>
+          <property name="text">
+           <string>Cancle</string>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>21</width>
+            <height>21</height>
+           </size>
+          </property>
+          <property name="shortcut">
+           <string>Esc</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QFrame" name="frame_3">
+         <property name="geometry">
+          <rect>
+           <x>150</x>
+           <y>20</y>
+           <width>371</width>
+           <height>321</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">#frame_3 {background:qlineargradient(spread:pad, x1:0, y1:0, x2:0.648, y2:0.642455, stop:0 rgba(152, 0, 0, 255), stop:1 rgba(152, 60, 24, 255));
+
+border-radius:10px}
+</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <widget class="QLabel" name="label_5">
+          <property name="geometry">
+           <rect>
+            <x>40</x>
+            <y>170</y>
+            <width>291</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Raleway Thin</family>
+            <pointsize>-1</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font-size:13px;
+color:rgb(189, 189, 189);
+border:none;</string>
+          </property>
+          <property name="text">
+           <string>KM PLAYER 64X</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_3">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>50</y>
+            <width>271</width>
+            <height>36</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Raleway Thin</family>
+            <pointsize>-1</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font-size:30px;
+color:rgb(189, 189, 189);
+border:none;</string>
+          </property>
+          <property name="text">
+           <string>Application found!</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_11">
+          <property name="geometry">
+           <rect>
+            <x>109</x>
+            <y>200</y>
+            <width>251</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Raleway Thin</family>
+            <pointsize>-1</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font-size:15px;
+color:rgb(189, 189, 189);
+border:none;</string>
+          </property>
+          <property name="text">
+           <string>www.sarzamindownload.com</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_10">
+          <property name="geometry">
+           <rect>
+            <x>39</x>
+            <y>198</y>
+            <width>51</width>
+            <height>26</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Raleway Thin</family>
+            <pointsize>-1</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font-size:15px;
+color:rgb(189, 189, 189);
+border:none;
+font-weight:bold</string>
+          </property>
+          <property name="text">
+           <string>Host</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QFrame" name="frame_4">
+         <property name="geometry">
+          <rect>
+           <x>720</x>
+           <y>90</y>
+           <width>601</width>
+           <height>361</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background:rgb(242, 242, 242);
+border-radius:10px</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <widget class="QScrollArea" name="scrollArea">
+          <property name="geometry">
+           <rect>
+            <x>38</x>
+            <y>70</y>
+            <width>521</width>
+            <height>261</height>
+           </rect>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>521</width>
+            <height>261</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>521</width>
+            <height>261</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">/* HORIZONTAL SCROLLBAR */
+QScrollBar:horizontal {
+    border: none;
+    background: rgb(240, 240, 240);
+    height: 15px;
+    margin: 0 15px 0 15px;
+	width:18px;
+    border-radius: 15px;
+}
+
+/* HANDLE BAR HORIZONTAL */
+QScrollBar::handle:horizontal {  
+	background: rgba(240, 240, 240,.2);
+    min-width: 10px;
+	max_width:15px;
+	width:18px;
+    border-radius: 7px;
+	height:1px;
+}
+QScrollBar::handle:horizontal:hover{  
+    background-color: rgba(240, 240, 240,.3);
+	height:1px
+}
+QScrollBar::handle:horizontal:pressed {  
+    background-color: rgba(240, 240, 240,.4);
+}
+
+/* BTN LEFT - SCROLLBAR */
+QScrollBar::sub-line:horizontal {
+    border: nonergb(11, 11, 11);
+    background-color: rgba(0,0,0,0);
+    width: 18px;
+	height:10px !important;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    subcontrol-position: left;
+    subcontrol-origin: margin;
+}
+QScrollBar::sub-line:horizontal:hover {  
+    background-color: rgb(255, 0, 127);
+}
+QScrollBar::sub-line:horizontal:pressed {  
+    background-color: rgb(185, 0, 92);
+}
+
+/* BTN RIGHT - SCROLLBAR */
+QScrollBar::add-line:horizontal {
+    border: none;
+    background-color: rgba(59, 59, 90,0);
+    width: 15px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    subcontrol-position: right;
+    subcontrol-origin: margin;
+}
+QScrollBar::add-line:horizontal:hover {  
+    background-color: rgb(255, 0, 127);
+}
+QScrollBar::add-line:horizontal:pressed {  
+    background-color: rgb(185, 0, 92);
+}
+
+/* RESET ARROW */
+QScrollBar::left-arrow:horizontal, QScrollBar::right-arrow:horizontal {
+    background: none;
+}
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
+    background: none;
+}
+</string>
+          </property>
+          <property name="widgetResizable">
+           <bool>true</bool>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+          </property>
+          <widget class="QWidget" name="scrollAreaWidgetContents">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>521</width>
+             <height>261</height>
+            </rect>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout"/>
+          </widget>
+         </widget>
+         <widget class="QLabel" name="label_4">
+          <property name="geometry">
+           <rect>
+            <x>50</x>
+            <y>20</y>
+            <width>271</width>
+            <height>36</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Raleway Thin</family>
+            <pointsize>-1</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font-size:30px;
+color:rgb(99, 99, 99);
+border:none;</string>
+          </property>
+          <property name="text">
+           <string>Versions:</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QFrame" name="frame_5">
+         <property name="geometry">
+          <rect>
+           <x>680</x>
+           <y>130</y>
+           <width>591</width>
+           <height>361</height>
+          </rect>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>451</width>
+           <height>361</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background:qlineargradient(spread:pad, x1:0, y1:0, x2:0.636, y2:0.579545, stop:0 rgba(217, 107, 52, 255), stop:1 rgba(59, 2, 2, 255));
+border-radius:10px</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+        </widget>
+        <zorder>frame_2</zorder>
+        <zorder>frame_3</zorder>
+        <zorder>frame_5</zorder>
+        <zorder>frame_4</zorder>
+       </widget>
+       <widget class="QWidget" name="page_2"/>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>2145</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
